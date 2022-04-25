@@ -4,7 +4,7 @@
 /* ------------------------------------ */
 ?>
 <p class="post-date">
-  <time class="published updated" datetime="<?php the_time('Y-m-d H:i:s'); ?>"><?php the_time( get_option('date_format') ); ?></time>
+  <!-- <time class="published updated" datetime="<?php the_time('Y-m-d H:i:s'); ?>"><?php the_time( get_option('date_format') ); ?></time> -->
 </p>
 <?php if ( hu_is_checked( 'post-list-meta-author' ) ) : ?>
   <p class="post-date">
